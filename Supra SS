@@ -1,0 +1,265 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+-- Instances: 20 | Scripts: 2 | Modules: 0 | Tags: 1
+local CollectionService = game:GetService("CollectionService");
+local G2L = {};
+
+-- Players.FRP20000.PlayerGui.Supra
+G2L["Supra_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["Supra_1"]["Name"] = [[Supra]];
+G2L["Supra_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["Supra_1"]["ResetOnSpawn"] = false;
+
+-- Tags
+CollectionService:AddTag(G2L["Supra_1"], [[main]]);
+
+-- Players.FRP20000.PlayerGui.Supra.Main
+G2L["Main_2"] = Instance.new("Frame", G2L["Supra_1"]);
+G2L["Main_2"]["Active"] = true;
+G2L["Main_2"]["ZIndex"] = 2;
+G2L["Main_2"]["BorderSizePixel"] = 2;
+G2L["Main_2"]["BackgroundColor3"] = Color3.fromRGB(7, 63, 0);
+G2L["Main_2"]["Size"] = UDim2.new(0, 498, 0, 288);
+G2L["Main_2"]["Position"] = UDim2.new(0, 294, 0, 128);
+G2L["Main_2"]["BorderColor3"] = Color3.fromRGB(0, 255, 0);
+G2L["Main_2"]["Name"] = [[Main]];
+G2L["Main_2"]["BackgroundTransparency"] = 0.5;
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.Execute
+G2L["Execute_3"] = Instance.new("TextButton", G2L["Main_2"]);
+G2L["Execute_3"]["BorderSizePixel"] = 0;
+G2L["Execute_3"]["TextSize"] = 18;
+G2L["Execute_3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Execute_3"]["BackgroundColor3"] = Color3.fromRGB(0, 113, 0);
+G2L["Execute_3"]["FontFace"] = Font.new([[rbxasset://fonts/families/Michroma.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Execute_3"]["Size"] = UDim2.new(0, 132, 0, 34);
+G2L["Execute_3"]["BorderColor3"] = Color3.fromRGB(0, 255, 0);
+G2L["Execute_3"]["Text"] = [[Execute]];
+G2L["Execute_3"]["Name"] = [[Execute]];
+G2L["Execute_3"]["Position"] = UDim2.new(0, 6, 0, 248);
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.Execute.UICorner
+G2L["UICorner_4"] = Instance.new("UICorner", G2L["Execute_3"]);
+
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.Clear
+G2L["Clear_5"] = Instance.new("TextButton", G2L["Main_2"]);
+G2L["Clear_5"]["BorderSizePixel"] = 0;
+G2L["Clear_5"]["TextSize"] = 18;
+G2L["Clear_5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Clear_5"]["BackgroundColor3"] = Color3.fromRGB(0, 113, 0);
+G2L["Clear_5"]["FontFace"] = Font.new([[rbxasset://fonts/families/Michroma.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Clear_5"]["Size"] = UDim2.new(0, 132, 0, 34);
+G2L["Clear_5"]["BorderColor3"] = Color3.fromRGB(0, 255, 0);
+G2L["Clear_5"]["Text"] = [[Clear]];
+G2L["Clear_5"]["Name"] = [[Clear]];
+G2L["Clear_5"]["Position"] = UDim2.new(0, 142, 0, 248);
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.Clear.UICorner
+G2L["UICorner_6"] = Instance.new("UICorner", G2L["Clear_5"]);
+
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.R6
+G2L["R6_7"] = Instance.new("TextButton", G2L["Main_2"]);
+G2L["R6_7"]["TextWrapped"] = true;
+G2L["R6_7"]["BorderSizePixel"] = 0;
+G2L["R6_7"]["TextSize"] = 18;
+G2L["R6_7"]["TextScaled"] = true;
+G2L["R6_7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["R6_7"]["BackgroundColor3"] = Color3.fromRGB(0, 113, 0);
+G2L["R6_7"]["FontFace"] = Font.new([[rbxasset://fonts/families/Michroma.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["R6_7"]["Size"] = UDim2.new(0, 104, 0, 34);
+G2L["R6_7"]["BorderColor3"] = Color3.fromRGB(0, 255, 0);
+G2L["R6_7"]["Text"] = [[Body Type Switch]];
+G2L["R6_7"]["Name"] = [[R6]];
+G2L["R6_7"]["Position"] = UDim2.new(0, 388, 0, 248);
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.R6.UICorner
+G2L["UICorner_8"] = Instance.new("UICorner", G2L["R6_7"]);
+
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.Reset
+G2L["Reset_9"] = Instance.new("TextButton", G2L["Main_2"]);
+G2L["Reset_9"]["TextWrapped"] = true;
+G2L["Reset_9"]["BorderSizePixel"] = 0;
+G2L["Reset_9"]["TextSize"] = 18;
+G2L["Reset_9"]["TextScaled"] = true;
+G2L["Reset_9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Reset_9"]["BackgroundColor3"] = Color3.fromRGB(0, 113, 0);
+G2L["Reset_9"]["FontFace"] = Font.new([[rbxasset://fonts/families/Michroma.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Reset_9"]["Size"] = UDim2.new(0, 104, 0, 34);
+G2L["Reset_9"]["BorderColor3"] = Color3.fromRGB(0, 255, 0);
+G2L["Reset_9"]["Text"] = [[Reset Character]];
+G2L["Reset_9"]["Name"] = [[Reset]];
+G2L["Reset_9"]["Position"] = UDim2.new(0, 278, 0, 248);
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.Reset.UICorner
+G2L["UICorner_a"] = Instance.new("UICorner", G2L["Reset_9"]);
+
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.TextBox
+G2L["TextBox_b"] = Instance.new("TextBox", G2L["Main_2"]);
+G2L["TextBox_b"]["CursorPosition"] = -1;
+G2L["TextBox_b"]["BorderSizePixel"] = 0;
+G2L["TextBox_b"]["TextWrapped"] = true;
+G2L["TextBox_b"]["TextSize"] = 14;
+G2L["TextBox_b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextBox_b"]["BackgroundColor3"] = Color3.fromRGB(2, 67, 66);
+G2L["TextBox_b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["TextBox_b"]["Size"] = UDim2.new(0, 484, 0, 170);
+G2L["TextBox_b"]["Position"] = UDim2.new(0, 8, 0, 50);
+G2L["TextBox_b"]["Text"] = [[]];
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.TextBox.UICorner
+G2L["UICorner_c"] = Instance.new("UICorner", G2L["TextBox_b"]);
+
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.ImageLabel
+G2L["ImageLabel_d"] = Instance.new("ImageLabel", G2L["Main_2"]);
+G2L["ImageLabel_d"]["ZIndex"] = 0;
+G2L["ImageLabel_d"]["BorderSizePixel"] = 0;
+G2L["ImageLabel_d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- G2L["ImageLabel_d"]["ImageContent"] = ;
+G2L["ImageLabel_d"]["Image"] = [[rbxassetid://72903195461776]];
+G2L["ImageLabel_d"]["Size"] = UDim2.new(0, 320, 0, 318);
+G2L["ImageLabel_d"]["BackgroundTransparency"] = 1;
+G2L["ImageLabel_d"]["Rotation"] = 20;
+G2L["ImageLabel_d"]["Position"] = UDim2.new(0, 240, 0, -102);
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.TextLabel
+G2L["TextLabel_e"] = Instance.new("TextLabel", G2L["Main_2"]);
+G2L["TextLabel_e"]["BorderSizePixel"] = 0;
+G2L["TextLabel_e"]["TextSize"] = 28;
+G2L["TextLabel_e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextLabel_e"]["FontFace"] = Font.new([[rbxasset://fonts/families/JosefinSans.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["TextLabel_e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextLabel_e"]["BackgroundTransparency"] = 1;
+G2L["TextLabel_e"]["Size"] = UDim2.new(0, 192, 0, 34);
+G2L["TextLabel_e"]["Text"] = [[Supra SS]];
+G2L["TextLabel_e"]["Position"] = UDim2.new(0, 158, 0, 10);
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.Detect
+G2L["Detect_f"] = Instance.new("TextButton", G2L["Main_2"]);
+G2L["Detect_f"]["TextWrapped"] = true;
+G2L["Detect_f"]["BorderSizePixel"] = 0;
+G2L["Detect_f"]["TextSize"] = 18;
+G2L["Detect_f"]["TextScaled"] = true;
+G2L["Detect_f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Detect_f"]["BackgroundColor3"] = Color3.fromRGB(0, 113, 0);
+G2L["Detect_f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Michroma.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["Detect_f"]["Size"] = UDim2.new(0, 170, 0, 34);
+G2L["Detect_f"]["BorderColor3"] = Color3.fromRGB(0, 255, 0);
+G2L["Detect_f"]["Text"] = [[Detect Remote Event]];
+G2L["Detect_f"]["Name"] = [[Detect]];
+G2L["Detect_f"]["Position"] = UDim2.new(0, 8, 0, 10);
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.Detect.UICorner
+G2L["UICorner_10"] = Instance.new("UICorner", G2L["Detect_f"]);
+
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.UICorner
+G2L["UICorner_11"] = Instance.new("UICorner", G2L["Main_2"]);
+
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.UIStroke
+G2L["UIStroke_12"] = Instance.new("UIStroke", G2L["Main_2"]);
+G2L["UIStroke_12"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["UIStroke_12"]["Thickness"] = 2;
+G2L["UIStroke_12"]["Color"] = Color3.fromRGB(0, 255, 0);
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.Draggable
+G2L["Draggable_13"] = Instance.new("LocalScript", G2L["Main_2"]);
+G2L["Draggable_13"]["Name"] = [[Draggable]];
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.MouseButton
+G2L["MouseButton_14"] = Instance.new("LocalScript", G2L["Main_2"]);
+G2L["MouseButton_14"]["Name"] = [[MouseButton]];
+
+
+-- Players.FRP20000.PlayerGui.Supra.Main.Draggable
+local function C_13()
+	local script = G2L["Draggable_13"];
+	    local UserInputService = game:GetService("UserInputService")	
+	    	
+	    local gui = script.Parent	
+	    	
+	    local dragging	
+	    local dragInput	
+	    local dragStart	
+	    local startPos	
+	    	
+	    local function update(input)	
+	        local delta = input.Position - dragStart	
+	        gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)	
+	    end	
+	    	
+	    gui.InputBegan:Connect(function(input)	
+	        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then	
+	            dragging = true	
+	            dragStart = input.Position	
+	            startPos = gui.Position	
+	    	
+	            input.Changed:Connect(function()	
+	                if input.UserInputState == Enum.UserInputState.End then	
+	                    dragging = false	
+	                end	
+	            end)	
+	        end	
+	    end)	
+	    	
+	    gui.InputChanged:Connect(function(input)	
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then	
+	            dragInput = input	
+	        end	
+	    end)	
+	    	
+	    UserInputService.InputChanged:Connect(function(input)	
+	        if input == dragInput and dragging then	
+	            update(input)	
+	        end	
+	    end)	
+end;
+task.spawn(C_13);
+-- Players.FRP20000.PlayerGui.Supra.Main.MouseButton
+local function C_14()
+	local script = G2L["MouseButton_14"];
+	script.Parent.Execute.MouseButton1Click:Connect(function()	
+		loadstring(script.Parent.TextBox.Text)()	
+	end)	
+	
+	script.Parent.Clear.MouseButton1Click:Connect(function()	
+		script.Parent.TextBox.Text = ""	
+	end)	
+	
+	
+end;
+task.spawn(C_14);
+
+return G2L["Supra_1"], require;
